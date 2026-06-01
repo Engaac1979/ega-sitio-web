@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es-MX"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablero de monetización · EGA (privado)</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;900&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+table { width: 100%; border-collapse: collapse; background: white; margin: 20px 0; }
+th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #e1e1e1; }
+th { background: #000; color: #fff; font-size: 0.78rem; letter-spacing: 2px; text-transform: uppercase; }
+.kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin: 30px 0; }
+.kpi-box { background: #000; color: #fff; padding: 28px; }
+.kpi-num { font-family: 'Big Shoulders Display', sans-serif; font-size: 3rem; line-height: 1; }
+.kpi-lbl { font-size: 0.78rem; letter-spacing: 2px; text-transform: uppercase; color: #c8c8c8; margin-top: 10px; }
+.private-badge { background: #c9a961; color: #000; padding: 4px 12px; font-size: 0.78rem; letter-spacing: 2px; display: inline-block; }
+</style>
+</head><body>
+
+<section class="page-header">
+  <div class="container">
+    <span class="private-badge">PRIVADO · NO INDEXADO</span>
+    <h1 style="color:#fff">Tablero de monetización</h1>
+    <p class="page-header__lede">Reporte automático generado el 01 de June de 2026 · 12:15. Refrescar cada vez que corre run_daily.py.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="kpi-grid">
+      <div class="kpi-box">
+        <div class="kpi-num">4</div>
+        <div class="kpi-lbl">Total leads</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-num" style="color:#c9a961">1</div>
+        <div class="kpi-lbl">Calientes (≥70 pts)</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-num">0</div>
+        <div class="kpi-lbl">Tibios (45-69 pts)</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-num">3</div>
+        <div class="kpi-lbl">Fríos (&lt;45 pts)</div>
+      </div>
+    </div>
+
+    <div class="kpi-grid" style="grid-template-columns: 1fr;">
+      <div class="kpi-box" style="background: linear-gradient(135deg, #c9a961, #b8975a); color: #000;">
+        <div class="kpi-num" style="color:#000">$20,430 MXN</div>
+        <div class="kpi-lbl" style="color:#222">Pipeline estimado (probabilidad ponderada)</div>
+        <div style="margin-top: 15px; font-size: 0.9rem; color: #444;">
+          Caliente: $18,000 ·
+          Tibio: $0 ·
+          Frío: $2,430
+        </div>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 60px;">Top 10 leads calientes</h2>
+    <table>
+      <thead><tr><th>Nombre</th><th>Empresa</th><th style="text-align:right">Score</th><th>Fuente</th></tr></thead>
+      <tbody><tr><td>Carlos Martínez</td><td>Industrial XYZ SA</td><td style='text-align:right'>70</td><td>formulario_diagnostico</td></tr></tbody>
+    </table>
+
+    <h2 style="margin-top: 60px;">Cinco fuentes de monetización</h2>
+    <table>
+      <thead><tr><th>Fuente</th><th>Tipo</th><th style="text-align:right">Precio promedio</th><th>Frecuencia</th></tr></thead>
+      <tbody><tr><td><strong>Consultoria Alto Ticket</strong></td><td>1:1</td><td style='text-align:right'>$90,000 MXN</td><td>Por proyecto / retainer</td></tr>
+<tr><td><strong>Mentoria Grupal</strong></td><td>Grupo</td><td style='text-align:right'>$18,000 MXN</td><td>Cohorte trimestral</td></tr>
+<tr><td><strong>Newsletter Premium</strong></td><td>Suscripción</td><td style='text-align:right'>$299 MXN</td><td></td></tr>
+<tr><td><strong>Curso Online</strong></td><td>Activo digital</td><td style='text-align:right'>$7,900 MXN</td><td></td></tr>
+<tr><td><strong>Speaking Engagements</strong></td><td>Eventos</td><td style='text-align:right'>$35,000 MXN</td><td>Mensual</td></tr></tbody>
+    </table>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 60px;">
+      <div>
+        <h2>Leads por fuente</h2>
+        <table><tbody><tr><td>descarga_ebook</td><td style='text-align:right'>2</td></tr>
+<tr><td>formulario_diagnostico</td><td style='text-align:right'>1</td></tr>
+<tr><td>linkedin</td><td style='text-align:right'>1</td></tr></tbody></table>
+      </div>
+      <div>
+        <h2>Leads por etapa</h2>
+        <table><tbody><tr><td>MOFU - Interés</td><td style='text-align:right'>4</td></tr></tbody></table>
+      </div>
+    </div>
+
+    <div style="margin-top: 60px; padding: 30px; background: #000; color: #fff;">
+      <h3 style="color:#c9a961">Recomendación del sistema</h3>
+      <p style="font-family: 'Crimson Pro', serif; font-size: 1.15rem; font-style: italic; margin: 16px 0;">
+        Concentrar atención hoy en los leads calientes del top 10. Tasa esperada de cierre 20%.
+      </p>
+    </div>
+  </div>
+</section>
+
+</body></html>
